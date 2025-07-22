@@ -81,7 +81,7 @@ npm start
 - `npm start` - Executa o servidor em modo de produção
 - `npm run db:seed` - Popula o banco de dados com dados de exemplo
 
-## ?? Endpoints
+## ?? Endpoints 
 
 A API estará disponível em `http://localhost:3333`
 
