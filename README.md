@@ -2,7 +2,7 @@
 
 Projeto desenvolvendo uma API robusta e eficiente utilizando tecnologias modernas, durante um evento da **Rocketseat**.
 
-## ?? Tecnologias
+## Tecnologias
 
 - **Node.js** com TypeScript nativo (experimental strip types)
 - **Fastify** - Framework web rápido e eficiente
@@ -12,7 +12,7 @@ Projeto desenvolvendo uma API robusta e eficiente utilizando tecnologias moderna
 - **Docker** - Containerização do banco de dados
 - **Biome** - Linting e formatação de código
 
-## ??? Arquitetura
+## Arquitetura
 
 O projeto segue uma arquitetura modular com:
 
@@ -75,13 +75,13 @@ npm run dev
 npm start
 ```
 
-## ?? Scripts Disponíveis
+## Scripts Disponíveis
 
 - `npm run dev` - Executa o servidor em modo de desenvolvimento com hot reload
 - `npm start` - Executa o servidor em modo de produção
 - `npm run db:seed` - Popula o banco de dados com dados de exemplo
 
-## ?? Endpoints 
+##  Endpoints
 
 A API estará disponível em `http://localhost:3333`
 
