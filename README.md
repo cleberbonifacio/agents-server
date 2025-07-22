@@ -5,30 +5,30 @@ Projeto desenvolvendo uma API robusta e eficiente utilizando tecnologias moderna
 ## Tecnologias
 
 - **Node.js** com TypeScript nativo (experimental strip types)
-- **Fastify** - Framework web r·pido e eficiente
-- **PostgreSQL** com extens„o **pgvector** para vetores
+- **Fastify** - Framework web r√°pido e eficiente
+- **PostgreSQL** com extens√£o **pgvector** para vetores
 - **Drizzle ORM** - Type-safe database operations
 - **Zod** - Schema validation
-- **Docker** - ContainerizaÁ„o do banco de dados
-- **Biome** - Linting e formataÁ„o de cÛdigo
+- **Docker** - Containeriza√ß√£o do banco de dados
+- **Biome** - Linting e formata√ß√£o de c√≥digo
 
 ## Arquitetura
 
 O projeto segue uma arquitetura modular com:
 
-- **SeparaÁ„o de responsabilidades** entre rotas, schemas e conex„o com banco
-- **ValidaÁ„o de schemas** com Zod para type safety
-- **ORM type-safe** com Drizzle para operaÁıes de banco de dados
-- **ValidaÁ„o de vari·veis de ambiente** centralizadas
+- **Separa√ß√£o de responsabilidades** entre rotas, schemas e conex√£o com banco
+- **Valida√ß√£o de schemas** com Zod para type safety
+- **ORM type-safe** com Drizzle para opera√ß√µes de banco de dados
+- **Valida√ß√£o de vari√°veis de ambiente** centralizadas
 
-## ?? Setup e ConfiguraÁ„o
+## Setup e Configura√ß√£o
 
-### PrÈ-requisitos
+### Pr√©-requisitos
 
-- Node.js (vers„o com suporte a `--experimental-strip-types`)
+- Node.js (vers√£o com suporte a `--experimental-strip-types`)
 - Docker e Docker Compose
 
-### 1. Clone o repositÛrio
+### 1. Clone o reposit√≥rio
 ```bash
 git clone <url-do-repositorio>
 cd server
@@ -39,7 +39,7 @@ cd server
 docker-compose up -d
 ```
 
-### 3. Configure as vari·veis de ambiente
+### 3. Configure as vari√°veis de ambiente
 
 Crie um arquivo `.env` na raiz do projeto:
 
@@ -48,12 +48,12 @@ PORT=3333
 DATABASE_URL=postgresql://docker:docker@localhost:5432/agents
 ```
 
-### 4. Instale as dependÍncias
+### 4. Instale as depend√™ncias
 ```bash
 npm install
 ```
 
-### 5. Execute as migraÁıes do banco
+### 5. Execute as migra√ß√µes do banco
 ```bash
 npx drizzle-kit migrate
 ```
@@ -70,20 +70,20 @@ npm run db:seed
 npm run dev
 ```
 
-**ProduÁ„o:**
+**Produ√ß√£o:**
 ```bash
 npm start
 ```
 
-## Scripts DisponÌveis
+## Scripts Dispon√≠veis
 
 - `npm run dev` - Executa o servidor em modo de desenvolvimento com hot reload
-- `npm start` - Executa o servidor em modo de produÁ„o
+- `npm start` - Executa o servidor em modo de produ√ß√£o
 - `npm run db:seed` - Popula o banco de dados com dados de exemplo
 
 ##  Endpoints
 
-A API estar· disponÌvel em `http://localhost:3333`
+A API estar√° dispon√≠vel em `http://localhost:3333`
 
-- `GET /health` - Health check da aplicaÁ„o
-- `GET /rooms` - Lista as salas disponÌveis
+- `GET /health` - Health check da aplica√ß√£o
+- `GET /rooms` - Lista as salas dispon√≠veis
